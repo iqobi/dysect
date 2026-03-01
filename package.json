@@ -1,0 +1,27 @@
+{
+  "name": "dysect",
+  "version": "1.0.0",
+  "description": "A scary but relaxing 3D apartment insect vacuuming game",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "electron": "electron .",
+    "dist": "vite build && electron-builder"
+  },
+  "keywords": [
+    "game",
+    "3d",
+    "horror",
+    "relaxing",
+    "steam"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "three": "^0.183.2",
+    "vite": "^7.3.1"
+  }
+}
